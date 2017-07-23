@@ -1,0 +1,15 @@
+.container { margin-top: 30px; text-align: center; }
+.form-control-lg { width: 300px; display: inline-block; margin: 30px 30px 5px; }
+.card-country { color: #fff; }
+.card { width: 300px; margin: auto; padding: 5px; margin: 20px auto 10px; border-radius: 4px; display: none;}
+.is-visible { display: block; }
+.textOutput { color: #fff; }
+
+/* Cards Colors */
+.euro { background-color: #8e44ad; }
+.argentine { background-color: #2980b9; }
+.chile { background-color: #c0392b; }
+.colombia { background-color: #f39c12; }
+.mexico { background-color: #27ae60; }
+.pound { background-color: #d35400}
+.brazil { background-color: #e67e22; }
