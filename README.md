@@ -3,14 +3,7 @@
 Reactive and Functional Dollar Converter
 
 ## Getting Started
-Font: (http://www.x-rates.com/calculator/)
-
-### Prerequisites
-Install all the packages that i used
-
-```
-npm install
-```
+Font: http://www.x-rates.com/calculator/
 
 ## Built With
 
@@ -19,8 +12,6 @@ npm install
 ## Author
 
 **germancutraro**
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## Why
 
