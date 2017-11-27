@@ -15,7 +15,8 @@ document.querySelector('#dolar-input').addEventListener('input', e => {
    }
 
   let outputsId = outputs.map(e => e.id); // take each id
-   for (let i = 0; i < outputs.length; i++) {
+   let len = outputs.length;
+   for (let i = 0; i < len; i++) {
      document.querySelector(`#${outputsId[i]}`).innerHTML = `<p class="textOutput"> ${converter(dollar, values[i])} </p>`;
    }
 });
