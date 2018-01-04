@@ -14,7 +14,7 @@ document.querySelector('#dolar-input').addEventListener('input', e => {
   dollar === '' || dollar === null ? cards.map( e => e.classList.remove('is-visible')) : false;
 
   let outputsId = outputs.map(e => e.id); // take each id
-   let len = outputs.length;
+  let len = outputs.length;
    for (let i = 0; i < len; i++) {
      document.querySelector(`#${outputsId[i]}`).innerHTML = `<p class="textOutput"> ${converter(dollar, values[i])} </p>`;
    }
