@@ -10,9 +10,8 @@ document.querySelector('#dolar-input').addEventListener('input', e => {
   const dollar = e.target.value;
   cards.map( e => e.classList.add('is-visible') ); // iterate of each card adding the class is-visible
   // If the input value is empty we must hide the cards (reactive comportation)
-   if (dollar === '' || dollar === null) {
-       cards.map( e => e.classList.remove('is-visible')) // iterate of each card removing the class is-visible (to hide it)
-   }
+        // iterate of each card removing the class is-visible (to hide it)
+  dollar === '' || dollar === null ? cards.map( e => e.classList.remove('is-visible')) : false;
 
   let outputsId = outputs.map(e => e.id); // take each id
    let len = outputs.length;
